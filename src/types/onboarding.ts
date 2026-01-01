@@ -1,4 +1,4 @@
-export type Currency = 'USD' | 'EUR' | 'GBP' | 'JPY' | 'CAD' | 'AUD' | 'CHF' | 'CNY' | 'INR' | 'BRL';
+export type Currency = 'MXN' | 'USD' | 'EUR' | 'GBP' | 'JPY' | 'CAD' | 'AUD' | 'CHF' | 'CNY' | 'INR' | 'BRL';
 
 export type FinancialFocus = 'saving' | 'debt' | 'investing' | 'tracking' | 'all';
 
@@ -81,7 +81,7 @@ export interface OnboardingData {
 
 export const defaultOnboardingData: OnboardingData = {
   preferredName: '',
-  currency: 'USD',
+  currency: 'MXN',
   country: '',
   financialFocus: [],
   goals: [],
