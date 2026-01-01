@@ -18,6 +18,7 @@ interface Step1ProfileProps {
 }
 
 const currencies: { value: Currency; label: string }[] = [
+  { value: 'MXN', label: 'MXN - Mexican Peso' },
   { value: 'USD', label: 'USD - US Dollar' },
   { value: 'EUR', label: 'EUR - Euro' },
   { value: 'GBP', label: 'GBP - British Pound' },
